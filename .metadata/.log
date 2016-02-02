@@ -1,0 +1,51 @@
+!SESSION 2016-01-31 10:40:13.532 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_72
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/mikes/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/mikes/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2016-01-31 10:40:14.656
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jdt.debug 4 125 2016-01-31 22:25:15.166
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+com.sun.jdi.VMDisconnectedException: Got IOException from Virtual Machine
+	at org.eclipse.jdi.internal.connect.PacketSendManager.sendPacket(PacketSendManager.java:90)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:187)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:227)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:243)
+	at org.eclipse.jdi.internal.ObjectReferenceImpl.referenceType(ObjectReferenceImpl.java:526)
+	at org.eclipse.jdt.internal.debug.core.model.JDIObjectValue.getUnderlyingReferenceType(JDIObjectValue.java:332)
+	at org.eclipse.jdt.internal.debug.core.model.JDIObjectValue.sendMessage(JDIObjectValue.java:80)
+	at org.eclipse.jdt.internal.debug.eval.LocalEvaluationEngine.run(LocalEvaluationEngine.java:258)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.runEvaluation(JDIThread.java:779)
+	at org.eclipse.jdt.internal.debug.eval.LocalEvaluationEngine.acceptClassFiles(LocalEvaluationEngine.java:213)
+	at org.eclipse.jdt.internal.core.eval.RequestorWrapper.acceptClassFiles(RequestorWrapper.java:48)
+	at org.eclipse.jdt.internal.eval.EvaluationContext.evaluate(EvaluationContext.java:297)
+	at org.eclipse.jdt.internal.eval.EvaluationContext.evaluate(EvaluationContext.java:316)
+	at org.eclipse.jdt.internal.core.eval.EvaluationContextWrapper.evaluateCodeSnippet(EvaluationContextWrapper.java:245)
+	at org.eclipse.jdt.internal.debug.eval.LocalEvaluationEngine$1.run(LocalEvaluationEngine.java:451)
+	at java.lang.Thread.run(Thread.java:745)
+!SESSION 2016-01-31 22:33:32.748 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_72
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/mikes/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/mikes/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2016-01-31 22:33:34.231
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2016-02-02 22:51:41.993 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_72
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/mikes/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/mikes/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2016-02-02 22:51:42.996
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences

@@ -1,0 +1,9 @@
+package com.qoh332.tutorial;
+
+public class Book {
+
+	public Book(String string) {
+		// TODO Auto-generated constructor stub
+	}
+
+}

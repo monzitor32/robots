@@ -1,0 +1,2 @@
+Syntax error on token "+", invalid AssignmentOperatorSyntax error on token "+", invalid AssignmentOperatorSyntax error on token "+", invalid AssignmentOperator2 + 2
+System.out.println("Hello there"); (No explicit return value)The method setName(String) is undefined for the type PersonPerson p = new Person();p.setName();

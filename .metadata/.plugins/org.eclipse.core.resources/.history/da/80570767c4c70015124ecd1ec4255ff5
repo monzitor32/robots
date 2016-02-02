@@ -1,0 +1,16 @@
+package com.qoh332.tutorial;
+
+public class Person {
+
+	//fields
+	private String name;
+	private int maximumBooks;
+	
+	public Person() {
+		 
+		 name = "unknown name";
+		 maximumBooks = 3;
+		 
+	}
+	
+}
