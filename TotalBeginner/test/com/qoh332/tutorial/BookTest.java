@@ -8,12 +8,19 @@ public class BookTest extends TestCase {
 		
 			Book b1 = new Book("Great Expectations");
 				
-			assertEquals("great Expectations", b1.title);
+			assertEquals("Great Expectations", b1.title);
 			assertEquals("unknown author", b1.author);
+			assertEquals("not specified", b1.coverType);
 				
 			}
 	
-	
+	public void testGetPerson(){
+		Book b99 = new Book("The Longest Day");
+		Person p9 = new Person();
+		
+		
+		
+	}
 	
 	
 	

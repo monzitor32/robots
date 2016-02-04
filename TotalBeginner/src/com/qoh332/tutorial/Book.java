@@ -5,10 +5,12 @@ public class Book {
 	public String title;
 	public String author;
 	Person  person;
+	String coverType;
 
 	public Book(String string) {
 		this.title = string;
 		this.author = "unknown author";
+		this.coverType = "not specified";
 		
 	}
 
@@ -37,6 +39,15 @@ public class Book {
 	public Person getPerson(){
 		return this.person;
 	}
+
+	public String getCoverType() {
+		return coverType;
+	}
+
+	public void setCoverType(String coverType) {
+		this.coverType = coverType;
+	}
+	
 	
 	
 }

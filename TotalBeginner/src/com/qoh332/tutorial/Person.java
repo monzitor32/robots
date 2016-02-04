@@ -17,7 +17,7 @@ public class Person {
 	}
 	
 	
-	//methods here  from MAc Mini
+	//methods here  from MAc Mini Thursday
 	
 	
 	
