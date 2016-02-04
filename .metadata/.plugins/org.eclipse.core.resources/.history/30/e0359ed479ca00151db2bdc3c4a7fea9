@@ -12,9 +12,4 @@ public class BookTest extends TestCase {
 			assertEquals("unknown author", b1.author);
 				
 			}
-	
-	
-	
-	
-	
 	}
