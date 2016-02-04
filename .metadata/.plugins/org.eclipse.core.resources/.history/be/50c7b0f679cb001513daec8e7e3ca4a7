@@ -14,13 +14,7 @@ public class BookTest extends TestCase {
 				
 			}
 	
-	public void testGetPerson(){
-		Book b99 = new Book("The Longest Day");
-		Person p9 = new Person();
-		
-		
-		
-	}
+	
 	
 	
 	

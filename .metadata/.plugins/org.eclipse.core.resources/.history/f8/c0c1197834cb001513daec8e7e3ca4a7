@@ -39,15 +39,6 @@ public class Book {
 	public Person getPerson(){
 		return this.person;
 	}
-
-	public String getCoverType() {
-		return coverType;
-	}
-
-	public void setCoverType(String coverType) {
-		this.coverType = coverType;
-	}
-	
 	
 	
 }
