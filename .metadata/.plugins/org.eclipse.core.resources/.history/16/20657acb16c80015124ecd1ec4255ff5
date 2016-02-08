@@ -1,1 +1,0 @@
-Person p5 = new Person();p5.setName("MyP5Name");p5.setMaximumBooks(9);p5.toString()Person p6 = new Person();
